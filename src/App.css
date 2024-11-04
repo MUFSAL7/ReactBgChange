@@ -1,0 +1,60 @@
+.main{
+  display: flex;
+  max-width: 50%;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+.main:hover{
+  background-color: #fff;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   width: 250px;
+   height: 100px;
+   text-align: center;
+   margin: 50px 45%;
+}
+.button1,
+.button2,
+.button3,
+.button4 {
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  max-width: 100px;
+  height: auto;
+  box-shadow: 5px 5px 5px hsla(0, 4%, 47%, 0.888);
+  transition: 0.5s ease-out;
+}
+.button1:hover{
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+}
+.card .button2:hover{
+  background-color: blue;
+  border-radius: 30px;
+
+}
+.card .button3:hover{
+  background-color: red;
+  border-radius: 30px;
+
+}
+.button4{
+  border-radius: 50%;
+  box-shadow: -1px 10px 10px hsla(0, 4%, 47%, 0.888);
+
+}
+.button4:hover{
+  border-radius: 0%;
+  font-size: 30px;
+}
